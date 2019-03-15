@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+     }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .clear {
+      clear: left;
+  }
+
+  .top-wrapper {
+    height: 500px;
+    background-image: url(file:///Users/suganumatomoko/gftdworks/592323.jpg);
+    background-size: cover;
+    opacity: 0.4;
+  }
+
+header {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: rgba(1, 80, 80, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+
+
+
+  .header-left h1{
+    text-align: left;
+    margin-left: 10%;
+    color: white;
+    font-size: 20px;
+  }
+
+  .fa-angle-double-down {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+
+  .header-right {
+    text-align: right;
+  }
+
+  .header-right  a{
+    padding:0 25px;
+    color: white;
+    font-size: 10px;
+  }
+
+  .top-wrapper p{
+    text-align: center;
+    color: #062525;
+    padding-top: 300px;
+    font-size: 40px;
+    opacity: 1;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #003d35;
+  }
+
+
+  .main-wrapper {
+    width: 100%;
+    background-color: #fffafa;
+    padding-bottom: 30px;
+  }
+
+footer{
+  background-color: #dcdcdc;
+  height: 150px;
+} 
+
+  .message p{
+    text-align: left;
+    font-size: 10px;
+    color: rgb(153, 153, 153);
+    }
+
+  .btn {
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+          background-color: #99ccbf;
+          border-radius: 40px 5px 40px 5px/40px 5px 40px 5px;
+
+}
+
+  .btn p{
+      font-size: 20px;
+      color: #2f4f4f;
+      opacity: 0.8;
+ 
+  }
+
+  .btn p:hover{
+    opacity: 1;
+  }
+  .contents {
+  float: left;
+  width: 25%;
+}
+
+/* タブレット向けレイアウト　*/
+
+@media (max-width: 1000px) {
+  .btn {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .contents {
+      width: 50%
+  }
+}
+
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+
+  .header-right {
+    display: none;
+  }
+  
+  .fa-angle-double-down {
+    display: block;
+  }
+
+  .btn {
+      width: 100%;
+  }
+
+  .top-wrapper p{
+      padding-top: 250px;
+      font-size: 30px;
+  }
+  .contents {
+    width: 100%;
+  }
+}
