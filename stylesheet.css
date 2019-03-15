@@ -24,7 +24,7 @@ body {
 
   .top-wrapper {
     height: 500px;
-    background-image: url(https://github.com/sugarmilkegg/sample/blob/master/592323.jpg);
+    background-image: url(592323.jpg);
     background-size: cover;
     opacity: 0.4;
   }
